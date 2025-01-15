@@ -2,12 +2,7 @@
 {
     public class Validador
     {
-        public static bool Validar(int valor, int min, int max)
-        {
-
-        }
-            
-            
-            //=> (min <= valor) && (valor <= max) ? true : false;
+        public static bool Validar(int valor, int min, int max) => (valor <= min) || (max <= valor) ? false : true;
+           
     }
 }
