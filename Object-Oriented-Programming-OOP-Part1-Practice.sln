@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.1.01 Library", "2. Stati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.1.01 View", "2. Static Methods\02.1.01 View\02.1.01 View.csproj", "{54846080-2EE3-487D-A539-972C55D01DCF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.1.02 Library", "2. Static Methods\02.1.02 Library\02.1.02 Library.csproj", "{270C37A1-76F2-4AA8-9F10-E37A39571CF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.1.02 View", "2. Static Methods\02.1.02 View\02.1.02 View.csproj", "{E27825DA-DD13-4F67-9818-7C2422BB37E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{54846080-2EE3-487D-A539-972C55D01DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54846080-2EE3-487D-A539-972C55D01DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54846080-2EE3-487D-A539-972C55D01DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{270C37A1-76F2-4AA8-9F10-E37A39571CF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{270C37A1-76F2-4AA8-9F10-E37A39571CF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{270C37A1-76F2-4AA8-9F10-E37A39571CF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{270C37A1-76F2-4AA8-9F10-E37A39571CF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E27825DA-DD13-4F67-9818-7C2422BB37E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E27825DA-DD13-4F67-9818-7C2422BB37E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E27825DA-DD13-4F67-9818-7C2422BB37E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E27825DA-DD13-4F67-9818-7C2422BB37E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +42,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B8A9BFA9-9944-46A9-BC05-E56B88D222F4} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{54846080-2EE3-487D-A539-972C55D01DCF} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{270C37A1-76F2-4AA8-9F10-E37A39571CF8} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E27825DA-DD13-4F67-9818-7C2422BB37E6} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D6BB9B96-AC3A-41CA-A3BC-ADEC7AB3FBA0}
