@@ -4,22 +4,35 @@ Excercise Link: https://codeutnfra.github.io/programacion_2_laboratorio_2_apunte
 */
 
 int acumulator = 0;
-int number;
+int number01;
+int number02;
 char desicion;
 
-Console.Write($"Ingresar un numero entero: ");
-number = int.Parse(Console.ReadLine()!);
-acumulator += number;
+Console.WriteLine($"Ingresar dos numeros entero: ");
+number01 = int.Parse(Console.ReadLine()!);
+number02 = int.Parse(Console.ReadLine()!);
+acumulator += number01;
+acumulator += number02;
+Console.Write($"El Total es: {acumulator}");
+Console.WriteLine();
 
 Console.WriteLine("Desea Continuar? (S/N): ");
 desicion = char.Parse(Console.ReadLine()!);
+Validador.ValidarRespuesta(desicion);
 
 while (Validador.ValidarRespuesta(desicion))
 {
-    Console.Write($"Ingresar un numero entero: ");
-    number = int.Parse(Console.ReadLine()!);
-    acumulator += number;
+    acumulator = 0;
+    Console.WriteLine($"Ingresar dos numeros entero: ");
+    number01 = int.Parse(Console.ReadLine()!);
+    number02 = int.Parse(Console.ReadLine()!);
+    acumulator += number01;
+    acumulator += number02;
+    Console.Write($"El Total es: {acumulator}");
+    Console.WriteLine();
 
+    Console.WriteLine("Desea Continuar? (S/N): ");
     desicion = char.Parse(Console.ReadLine()!);
-    Console.WriteLine("Desea Continuar? (S/N): " );
+    Validador.ValidarRespuesta(desicion);
 }
+

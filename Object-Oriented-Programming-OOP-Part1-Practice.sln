@@ -5,13 +5,13 @@ VisualStudioVersion = 17.13.35617.110
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Static methods", "02. Static methods", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.1.01 Library", "02. Static Methods\02.1.01 Library\02.1.01 Library.csproj", "{12CD316A-56F6-8BB9-9506-1F221E34B29E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02101Library", "02. Static Methods\02.1.01 Library\02101Library.csproj", "{12CD316A-56F6-8BB9-9506-1F221E34B29E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.1.01 View", "02. Static Methods\02.1.01 View\02.1.01 View.csproj", "{9AA15260-F8DB-113C-0967-686A13A2DFCA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02101View", "02. Static Methods\02.1.01 View\02101View.csproj", "{9AA15260-F8DB-113C-0967-686A13A2DFCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.1.02 Library", "02. Static Methods\02.1.02 Library\02.1.02 Library.csproj", "{B28BAF10-37AD-032E-7623-9E281C0FE4D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02102Library", "02. Static Methods\02.1.02 Library\02102Library.csproj", "{B28BAF10-37AD-032E-7623-9E281C0FE4D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.1.02 View", "02. Static Methods\02.1.02 View\02.1.02 View.csproj", "{7600E559-1120-6823-3F8E-E4DF2EB3A7F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02102View", "02. Static Methods\02.1.02 View\02102View.csproj", "{7600E559-1120-6823-3F8E-E4DF2EB3A7F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

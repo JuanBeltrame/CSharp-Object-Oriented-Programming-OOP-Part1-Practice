@@ -9,7 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\02.1.02 Library\02.1.02 Library.csproj" />
+    <ProjectReference Include="..\02.1.02 Library\02102Library.csproj">
+      <Private>True</Private>
+      <ReferenceOutputAssembly>True</ReferenceOutputAssembly>
+    </ProjectReference>
   </ItemGroup>
 
 </Project>
