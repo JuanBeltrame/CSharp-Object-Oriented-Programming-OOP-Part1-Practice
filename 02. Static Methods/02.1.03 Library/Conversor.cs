@@ -10,15 +10,18 @@ Excercise Link: https://codeutnfra.github.io/programacion_2_laboratorio_2_apunte
         public static string ConvertirDecimalABinario(int numeroEntero)
         {
             List<int> binaryNumber = new();
-            do
+            foreach (int number in binaryNumber)
             {
-                int residuo = numeroEntero % 2;
-                numeroEntero /= 2;
-                foreach (int number in binaryNumber)
-                    binaryNumber.Add(residuo);
-            } while (numeroEntero != 0);
+                do
+                {
+                    int residuo = numeroEntero % 2;
+                    numeroEntero /= 2;
 
-            return binaryNumber.ToString()!;
+                    binaryNumber.Add(residuo);
+                } while (numeroEntero != 0);
+
+                return binaryNumber.ToString()!;
+            }
         }
 
         //public static int ConvertirBinarioADecimal(int numeroEntero)
