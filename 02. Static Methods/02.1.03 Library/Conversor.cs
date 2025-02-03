@@ -7,14 +7,23 @@ Excercise Link: https://codeutnfra.github.io/programacion_2_laboratorio_2_apunte
 {
     public sealed class Conversor
     {
-        public string ConvertirDecimalABinario(int numeroEntero)
+        public static string ConvertirDecimalABinario(int numeroEntero)
         {
-            return;
+            List<int> binaryNumber = new();
+            do
+            {
+                int residuo = numeroEntero % 2;
+                numeroEntero /= 2;
+                foreach (int number in binaryNumber)
+                    binaryNumber.Add(residuo);
+            } while (numeroEntero != 0);
+
+            return binaryNumber.ToString()!;
         }
 
-        public int ConvertirBinarioADecimal(int numeroEntero)
-        {
-            return 
-        }
+        //public static int ConvertirBinarioADecimal(int numeroEntero)
+        //{
+        //    return
+        //}
     }
 }

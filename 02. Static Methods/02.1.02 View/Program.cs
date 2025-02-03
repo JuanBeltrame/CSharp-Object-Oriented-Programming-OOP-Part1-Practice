@@ -3,6 +3,10 @@
 Excercise Link: https://codeutnfra.github.io/programacion_2_laboratorio_2_apuntes/docs/clases/estaticos/Ejercicios/I02-desea-continuar/
 */
 
+Console.Title = "Ejercicio I02 - ¿Desea continuar? - UTN Avellaneda";
+Console.ForegroundColor = ConsoleColor.Yellow;
+
+
 int acumulator = 0;
 int number01;
 int number02;

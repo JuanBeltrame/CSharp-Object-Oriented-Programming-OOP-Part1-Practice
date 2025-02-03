@@ -6,6 +6,9 @@ Excercise Link: https://codeutnfra.github.io/programacion_2_laboratorio_2_apunte
 
 using _02._1._01_Library;
 
+Console.Title = "Ejercicio I01 - Validador de rangos - UTN Avellaneda";
+Console.ForegroundColor = ConsoleColor.Yellow;
+
 Random rn = new();
 int capacity = 10;
 int maxValue = -100;
