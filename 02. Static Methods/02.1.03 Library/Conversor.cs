@@ -9,19 +9,7 @@ Excercise Link: https://codeutnfra.github.io/programacion_2_laboratorio_2_apunte
     {
         public static string ConvertirDecimalABinario(int numeroEntero)
         {
-            List<int> binaryNumber = new();
-            foreach (int number in binaryNumber)
-            {
-                do
-                {
-                    int residuo = numeroEntero % 2;
-                    numeroEntero /= 2;
-
-                    binaryNumber.Add(residuo);
-                } while (numeroEntero != 0);
-
-                return binaryNumber.ToString()!;
-            }
+            
         }
 
         //public static int ConvertirBinarioADecimal(int numeroEntero)
