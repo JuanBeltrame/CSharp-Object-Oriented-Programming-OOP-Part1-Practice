@@ -9,12 +9,21 @@ Excercise Link: https://codeutnfra.github.io/programacion_2_laboratorio_2_apunte
     {
         public static string ConvertirDecimalABinario(int numeroEntero)
         {
-            
+            string? binaryValue = default;
+            int resto;
+
+            do
+            {
+                numeroEntero /= 2;
+                resto = numeroEntero % 2;
+                binaryValue = binaryValue + resto.ToString();
+            } while (resto != 0);
+            return binaryValue;
         }
 
-        //public static int ConvertirBinarioADecimal(int numeroEntero)
-        //{
-        //    return
-        //}
+        public static int ConvertirBinarioADecimal(int numeroEntero)
+        {
+            return
+        }
     }
 }

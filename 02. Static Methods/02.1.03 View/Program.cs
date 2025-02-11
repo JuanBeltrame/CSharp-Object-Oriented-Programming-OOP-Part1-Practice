@@ -3,12 +3,17 @@
 Console.Title = "Ejercicio I03 - Conversor binario - UTN Avellaneda";
 Console.ForegroundColor = ConsoleColor.Yellow;
 
-List<int> binaryNumbers = new();
 
-int number = int.Parse(Console.ReadLine()!);
+Console.Write("Ingresar un numero: ");
+Console.WriteLine();
+if (!int.TryParse(Console.ReadLine()!, out int number))
+    Console.WriteLine("Se debe ingresar un numero");
+
 string binaryNumber = Conversor.ConvertirDecimalABinario(number);
-foreach (var item in binaryNumbers)
+Console.Write($"Su valor en Binario es: {binaryNumber}");
 
 
 
-    Console.WriteLine(binaryNumber);
+
+
+
