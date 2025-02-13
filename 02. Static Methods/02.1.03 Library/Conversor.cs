@@ -21,9 +21,17 @@ Excercise Link: https://codeutnfra.github.io/programacion_2_laboratorio_2_apunte
             return binaryValue;
         }
 
-        public static int ConvertirBinarioADecimal(int numeroEntero)
+        public static int BinaryToDecimal(string valorRecibido)
         {
-            return
+            int resultado = 0; // Valor a retornar; lo inicializamos en cero dado que si la cadena recibida no corresponde a un binario, retornamos cero
+            int cantidadCaracteres = valorRecibido.Length; // Guardamos la longitud de la cadena para saber hasta donde tenemos que ir calculando. 
+            foreach (char caracter in valorRecibido)
+            {
+                cantidadCaracteres--;
+                if (caracter == '1')
+                    resultado += (int)Math.Pow(2, cantidadCaracteres);
+            }
+            return resultado;
         }
     }
 }
